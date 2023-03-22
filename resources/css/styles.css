@@ -4,19 +4,21 @@
     background-color: #1F2937;
 }
 
-.header-logo  {
-    display: flex;
+.header {
+    display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+
+.logo  {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 250px;
+    
 }
 
-.header-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.link {
     margin-right: 250px;
 }
 
@@ -25,4 +27,28 @@
     color: #E5E7EB;
     margin-left: 15px;
     margin-right: 15px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    height: 600px;
+    width: auto;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    font-size: 32px;
+    font-color: #F9FAF8;
+}
+.main-text {
+    display: flex;
+    justify-content: center;
+    align=items: center;
+    flex-direction: column;
 }
