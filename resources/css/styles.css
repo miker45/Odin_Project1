@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .logo  {
@@ -35,6 +36,7 @@
     background-color: #1F2937;
     height: auto;
     width: auto;
+    padding-bottom: 100px;
 }
 
 .text {
@@ -44,7 +46,7 @@
     align-items: center;
     margin-left: 250px;
     margin-right: 25px;
-    font-size: 34px;
+    font-size: 24px;
     color: #F9FAF8;
 }
 .main-text {
@@ -70,6 +72,19 @@ button {
 }
 
 .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure img {
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+    width: 200px;
+    height: auto;
+}
+
+figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
