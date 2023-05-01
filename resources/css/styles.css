@@ -77,6 +77,15 @@ button {
     align-items: center;
 }
 
+.heading {
+    padding: 50px 0px 0px 0px;
+}
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 figure img {
     border: 3px solid #3882F6;
     border-radius: 5%;
@@ -95,11 +104,25 @@ figcaption {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 75px 0px 75px 0px;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 170px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.footer_button{
+    border: 2px white solid;
 }
 
